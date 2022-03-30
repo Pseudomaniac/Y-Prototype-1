@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     void EnableExit()
     {
+        if(exit != null)
         exit.SetActive(true);
     }
     //TO DO : Move to separate script
